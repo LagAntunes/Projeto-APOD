@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilos/index.css">
+        <title>Projeto APOD</title>
+    </head>
+
+    <body id="corpoDaPagina">
+        <header id="cabeçalho">
+            <h1 class="titulo">APOD - Astronomy Picture of the Day</h1>
+            <a href="https://apod.nasa.gov/apod/astropix.html" class="botaoNasa">
+                Visite o site oficial APOD da NASA
+            </a>
+        </header>
+
+        <section id="sectionPrincipal">
+            <h1>Projeto APOD</h1>
+            <h2>Descubra a foto ou o vídeo do dia escolhido:</h2>
+            <h4>Escolha uma data entre 16/06/1995 até o dia atual:</h4>
+
+            <input type="date" id="data" name="data" min="1995-06-16">
+            <input type="button" value="Enviar" name="botaoEnviar" id="botaoEnviar">
+
+            <div id="informacaoDaAPI">
+                <h1 id="tituloDaMidia"></h1>
+                <div id="lugarDaMidia">
+                        
+                </div>
+                <h6 id="copyright"></h6>
+                <p id="apresentacao"></p>
+            </div>
+        </section>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/javascript/index.js"></script>
+</html>

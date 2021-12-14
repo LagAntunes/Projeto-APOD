@@ -1,0 +1,143 @@
+/* início da formatação do fundo da página */ 
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/imagens/universo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+/* fim da formatação do fundo da página */ 
+
+/* início da formatação do conteúdo */
+#cabeçalho {
+    background-color: turquoise;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo {
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px goldenrod;
+}
+
+.botaoNasa {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px goldenrod;
+}
+
+.botaoNasa:hover {
+    color: goldenrod;
+    text-shadow: 2px 2px white;
+}
+
+#sectionPrincipal {
+    width: 65%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#sectionPrincipal h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    color: turquoise;
+    text-shadow: 2px 2px wheat;
+}
+
+#sectionPrincipal h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: turquoise;
+    text-shadow: 2px 2px wheat;
+}
+
+#sectionPrincipal h4 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: turquoise;
+    text-shadow: 1px 2px wheat;
+}
+
+#data {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-color: turquoise;
+    color: turquoise;
+    font-size: 20px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#botaoEnviar {
+    width: 20%;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 25px;
+    font-weight: bold;
+    color: turquoise;
+    border-color: turquoise;
+    background-color: lightgoldenrodyellow;
+    cursor: pointer;
+}
+
+#botaoEnviar:hover {
+    color: lightgoldenrodyellow;
+    border-color: lightgoldenrodyellow;
+    background-color: turquoise;
+}
+
+#informacaoDaAPI {
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#tituloDaMidia {
+    font-size: 2em;
+    font-weight: bold;
+    color: turquoise;
+    text-shadow: 2px 2px wheat;
+}
+
+#lugarDaMidia img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+#copyright {
+    color: turquoise;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#apresentacao {
+    padding: 20px;
+}
+
+/* fim da formatação do conteúdo */
